@@ -10,7 +10,7 @@ if [ -d "$RSVM_TARGET" ]; then
 fi
 
 # Cloning to $RSVM_TARGET
-git clone git://github.com/sdepold/rsvm.git $RSVM_TARGET
+git clone https://github.com/paulgg-code/rsvm.git $RSVM_TARGET
 
 echo
 
