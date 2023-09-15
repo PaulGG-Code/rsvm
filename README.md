@@ -40,14 +40,14 @@ Download and install a &lt;version&gt;. &lt;version&gt; could be for example "0.
 
 ```console
 rsvm install <version>
-e.g.: rsvm install 0.12.0
+e.g.: rsvm install 1.70.0
 ```
 
 Activate &lt;version&gt; for now and the future.
 
 ```console
 rsvm use <version>
-e.g. rsvm use 0.12.0
+e.g. rsvm use 1.70.0
 ```
 
 List all installed versions of rust. Choose the one that you like most.
@@ -69,17 +69,17 @@ Print a channel version of rust that is available for installation.
 rsvm ls-channel stable
 ```
 
-## Example: Install 0.12.0
+## Example: Install 1.70.0
 
 ```console
 curl https://raw.github.com/paulgg-code/rsvm/master/install.sh | sh
 source ~/.rsvm/rsvm.sh
-rsvm install 0.12.0
-rsvm use 0.12.0
+rsvm install 1.70.0
+rsvm use 1.70.0
 
 # you will now be able to access the rust binaries:
 ~ ∴ rustc -v
-rustc 0.12.0
+rustc 1.70.0
 host: x86_64-apple-darwin
 
 ~ ∴ cargo -h
